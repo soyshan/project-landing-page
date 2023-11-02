@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inika:wght@700&family=Inria+Sans&display=swap');
+
+.bodystyle{
+  background-image:url(Recursos/Chica\ cocinando\ 2\ Pexels\ Photo\ by\ Yaroslav\ Shuraev.png);
+  background-repeat: no-repeat;
+  background-position: 0%;
+  background-attachment: fixed;
+}
+
+*{ box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inria Sans', sans-serif;
+  font-size:20px;
+}
+
+.texto{
+  margin-top: 250px;
+  display: flex;
+  margin-left:605px;
+  margin-bottom: 30px;
+  position: fixed;
+  text-align: center;
+  font-size: 25px;
+  }
+
+.boton {
+  background-color:#FFD53F;
+  padding: 10px 20px;
+  border:0;
+  border-radius:30px;
+  width: 300px;
+  height: auto;
+  cursor: pointer;
+  margin-top: 300px;
+  margin-left:630px;
+
+}
+
+
+*{ box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inria Sans', sans-serif;
+  font-size:20px;
+}
+
+
+.header {
+    display:flex;
+    background-color:#BFEE9A;
+    justify-content:flex-end;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+    word-spacing: 40px;
+}
+
+.header .logo{
+ 
+  margin-right:auto;
+}
+
+.header .logo img{
+  height: 75px;
+  width: auto;
+}
+
+
+.header .navlinks
+{list-style:none;
+}
+
+
+.header .navlinks li {
+  display:inline-block;
+  padding:0 20xp;
+}
+.header .navlinks li:hover{transform: scale(1.1);}
+
+
+.header .navlinks a{
+  font-size:700;
+  color:black;
+  text-decoration: none;
+}
+
+header .navlinks a:hover{
+  color: white;
+}
+
+
+
+
